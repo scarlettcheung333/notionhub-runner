@@ -29,7 +29,7 @@ jobs:
     runs-on: ubuntu-latest
     env:
       NOTIONHUB_API_BASE: https://i.notionhub.app/v1
-      NOTIONHUB_CONFIG_VERSION: '34'
+      NOTIONHUB_CONFIG_VERSION: '39'
       WEREAD_CONFIG: ${{ secrets.WEREAD_CONFIG }}
       PODCAST_CONFIG: ${{ secrets.PODCAST_CONFIG }}
       DOUBAN_CONFIG: ${{ secrets.DOUBAN_CONFIG }}
@@ -47,8 +47,10 @@ jobs:
       SPOTIFY_CONFIG: ${{ secrets.SPOTIFY_CONFIG }}
       TRAKT_CONFIG: ${{ secrets.TRAKT_CONFIG }}
       XIAOHONGSHU_CONFIG: ${{ secrets.XIAOHONGSHU_CONFIG }}
+      DOUYIN_CONFIG: ${{ secrets.DOUYIN_CONFIG }}
       YOUTUBE_CONFIG: ${{ secrets.YOUTUBE_CONFIG }}
       GUWENDAO_CONFIG: ${{ secrets.GUWENDAO_CONFIG }}
+      GHSTAR_CONFIG: ${{ secrets.GHSTAR_CONFIG }}
       DAILY_CONFIG: ${{ secrets.DAILY_CONFIG }}
     steps:
       - name: 验证修复配置
